@@ -6,7 +6,7 @@ namespace EttermiRendszer_Doga
     {
         static void Main(string[] args)
         {
-            Etterem etterem = new Etterem();
+            Ettereme etterem = new Ettereme();
             etterem.Menu = Fajlkezelo.MenuBetoltese();
 
             Vendeg vendeg1 = new Vendeg("Kiss Péter");

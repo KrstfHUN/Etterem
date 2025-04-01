@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace Etterem
 {
-    internal class Etterem
+    internal class Ettereme
     {
         internal List<MenuElem> Rendelesek;
 
         public List<MenuElem> Menu { get; set; }
 
-        public Etterem()
+        public Ettereme()
         {
             Menu = new List<MenuElem>();
         }
